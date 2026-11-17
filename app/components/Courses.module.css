@@ -1,0 +1,14 @@
+.courses { display: grid; gap: 1.5rem; margin-top: 2.5rem; }
+.course { display: flex; flex-direction: column; border: 1px solid rgb(11 31 26 / 0.15); background: rgb(255 255 255 / 0.5); border-radius: 1rem; padding: 2rem; }
+.courseFeatured { background: var(--mask); color: var(--esd); border-color: var(--mask); }
+.level { width: fit-content; border-radius: 999px; padding: 0.25rem 0.75rem; font-size: 0.875rem; font-weight: 700; background: var(--mask); color: #fff; }
+.courseFeatured .level { background: var(--gold); color: var(--ink); }
+.course h3 { margin: 1rem 0 0; font-size: 1.5rem; font-weight: 700; }
+.course > p { margin: 0.5rem 0 0; color: rgb(11 31 26 / 0.75); }
+.courseFeatured > p { color: rgb(232 237 234 / 0.8); }
+.list { margin: 1.25rem 0 0; padding: 0; list-style: none; display: grid; gap: 0.5rem; }
+.list li { display: flex; gap: 0.75rem; }
+.check { width: 1rem; height: 1rem; margin-top: 0.3rem; flex-shrink: 0; stroke: var(--mask); }
+.courseFeatured .check { stroke: var(--gold); }
+.course .cta { margin-top: 2rem; width: fit-content; }
+@media (min-width: 768px) { .courses { grid-template-columns: 1fr 1fr; } }

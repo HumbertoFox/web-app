@@ -1,0 +1,7 @@
+.btn { display: inline-block; border-radius: 0.5rem; padding: 0.75rem 1.5rem; font-weight: 600; text-decoration: none; }
+.gold { background: var(--gold); color: var(--ink); }
+.gold:hover { background: var(--gold-2); }
+.green { background: var(--mask); color: #fff; }
+.green:hover { background: var(--mask-2); }
+.ghost { border: 1px solid rgb(232 237 234 / 0.4); color: var(--esd); }
+.ghost:hover { background: rgb(255 255 255 / 0.1); }

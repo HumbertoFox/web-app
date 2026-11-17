@@ -1,0 +1,7 @@
+.contact { background: var(--ink); color: var(--esd); }
+.contactGrid { display: grid; gap: 2rem; padding: 4rem 1.25rem; max-width: 72rem; margin: 0 auto; }
+.contactGrid h2 { margin: 0 0 1.5rem; font-size: 1.875rem; font-weight: 800; }
+.address { font-style: normal; display: grid; gap: 0.25rem; color: rgb(232 237 234 / 0.8); }
+.address p { margin: 0; }
+.copy { margin: 0; padding: 1.25rem; text-align: center; font-size: 0.875rem; border-top: 1px solid rgb(255 255 255 / 0.1); color: rgb(232 237 234 / 0.5); }
+@media (min-width: 768px) { .contactGrid { grid-template-columns: 1fr 1fr; } }
