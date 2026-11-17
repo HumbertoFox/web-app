@@ -1,8 +1,8 @@
 // Nome da marca: altere só aqui e reflete em toda a página.
 export const BRAND = "Bancada Tech";
 
-// Ano do copyright (fixo, para não quebrar o prerender do Next.js).
-export const COPYRIGHT_YEAR = 2026;
+// Ano do copyright.
+export const COPYRIGHT_YEAR = new Date().getFullYear();
 
 export const WHATSAPP = "https://wa.me/5581999999999?text=Olá! Quero um orçamento.";
 

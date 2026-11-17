@@ -17,7 +17,7 @@ type Props = {
   showTemp?: boolean;
 };
 
-export default function Board({ logoSrc, logoAlt = "Logomarca", showTemp = true }: Props) {
+export default function Board({ logoSrc = "/logo.svg", logoAlt = "Logomarca", showTemp = true }: Props) {
   return (
     <svg viewBox="0 0 480 360" role="img" aria-label="Ilustração de uma placa de circuito com trilhas e chip central" className={styles.board}>
       <rect x="8" y="8" width="464" height="344" rx="14" fill="#14503C" stroke="#E0B040" strokeOpacity=".35" />
